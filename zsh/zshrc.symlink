@@ -77,10 +77,6 @@ em() {
   emacsclient -t $1 || (emacs --daemon && emacsclient -t $1)
 }
 
-# source /usr/local/opt/nvm/nvm.sh
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-
 # fzf config
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

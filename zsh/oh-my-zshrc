@@ -2,7 +2,12 @@
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump xcode ruby gem vim python)
+plugins=(git autojump)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh
+
+# should not place in zshrc.symlink, which will cause
+# env: node: No such file or directory !!!
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
