@@ -68,6 +68,11 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 # Personal customizes
 
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export TERM=xterm-256color
+
 em() {
   emacsclient -t $1 || (emacs --daemon && emacsclient -t $1)
 }
