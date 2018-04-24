@@ -8,6 +8,7 @@ packages=(
     prettier
     npm
     nodemon
+    create-react-app
 )
 
 npm install -g "${packages[@]}"
