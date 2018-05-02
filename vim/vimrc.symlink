@@ -43,7 +43,7 @@ nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 "background
 let g:solarized_termcolors=256
 set background=dark
-colorscheme darkplus 
+colorscheme solarized8
 "cut & paste
 vnoremap < <gv
 vnoremap > >gv

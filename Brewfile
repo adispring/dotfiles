@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'd12frosted/emacs-plus'
+tap 'caskroom/fonts'
 
 brew 'emacs-plus'
 brew 'percol'
@@ -16,4 +17,5 @@ brew 'spaceman-diff'
 brew 'unrar'
 brew 'wget'
 
+cask 'font-source-code-pro'
 # cask 'google-chrome'
