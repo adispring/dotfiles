@@ -9,6 +9,7 @@ packages=(
     npm
     nodemon
     create-react-app
+    webpack
 )
 
 npm install -g "${packages[@]}"
