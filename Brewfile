@@ -16,6 +16,7 @@ brew 'readline'
 brew 'spaceman-diff'
 brew 'unrar'
 brew 'wget'
+brew 'watchman'
 
 cask 'font-source-code-pro'
 # cask 'google-chrome'
