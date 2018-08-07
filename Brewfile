@@ -5,6 +5,8 @@ tap 'd12frosted/emacs-plus'
 tap 'caskroom/fonts'
 
 brew 'emacs-plus'
+brew 'the_silver_searcher' # using for emacs helm-ag, C-c C-s
+
 brew 'percol'
 brew 'fzf'
 brew 'autojump'
