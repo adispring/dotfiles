@@ -10,6 +10,7 @@ brew 'the_silver_searcher' # using for emacs helm-ag, C-c C-s
 brew 'percol'
 brew 'fzf'
 brew 'autojump'
+brew 'tree'
 
 brew 'ack'
 brew 'coreutils'
