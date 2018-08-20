@@ -1,0 +1,14 @@
+{
+  "libs": [
+    "browser",
+    "ecmascript",
+    "react",
+    "ramda"
+  ],
+  "plugins": {
+    "node": {},
+    "es_modules": {},
+    "webpack": {},
+    "commonjs": {}
+  }
+}
