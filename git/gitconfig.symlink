@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-	excludesfile = /Users/adi/.gitignore
+	excludesfile = /Users/wangzengdi/.gitignore_global
         editor = vim
 [apply]
         whitespace = nowarn

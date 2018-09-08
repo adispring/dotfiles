@@ -1,14 +1,17 @@
 {
   "libs": [
     "browser",
-    "jquery"
+    "ecmascript",
+    "react",
+    "ramda"
   ],
   "plugins": {
     "complete_strings": {},
     "es_modules": {},
-    "commonjs":{},
     "node":{},
     "requirejs":{},
-    "node_resolve":{}
+    "node_resolve":{},
+    "webpack": {},
+    "commonjs": {}
   }
 }
