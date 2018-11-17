@@ -22,5 +22,7 @@ brew 'unrar'
 brew 'wget'
 brew 'watchman'
 
+brew 'stack'
+
 cask 'font-source-code-pro'
 # cask 'google-chrome'
