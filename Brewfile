@@ -12,6 +12,7 @@ brew 'fzf'
 brew 'autojump'
 brew 'tree'
 brew 'tmux'
+brew zsh-syntax-highlighting
 
 brew 'ack'
 brew 'coreutils'
