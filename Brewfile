@@ -25,4 +25,5 @@ brew 'watchman'
 brew 'stack'
 
 cask 'font-source-code-pro'
+cask 'item2'
 # cask 'google-chrome'
