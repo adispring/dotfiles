@@ -11,6 +11,7 @@ brew 'percol'
 brew 'fzf'
 brew 'autojump'
 brew 'tree'
+brew 'tmux'
 
 brew 'ack'
 brew 'coreutils'
@@ -20,6 +21,8 @@ brew 'spaceman-diff'
 brew 'unrar'
 brew 'wget'
 brew 'watchman'
+
+brew 'stack'
 
 cask 'font-source-code-pro'
 # cask 'google-chrome'
