@@ -11,6 +11,7 @@ packages=(
     tern
     prettier
     js-beautify
+    livedown
 )
 
 npm install -g "${packages[@]}"

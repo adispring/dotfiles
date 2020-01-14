@@ -102,3 +102,7 @@ ip() {
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export HASKELL_HOME=$HOME/.local/bin
+export PATH=$PATH:$HASKELL_HOME
+export PATH="$HOME/.cargo/bin:$PATH"

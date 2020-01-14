@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-	excludesfile = /Users/wangzengdi/.gitignore_global
+	excludesfile = /Users/adi/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
@@ -37,3 +37,8 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[user]
+	name = adispring
+	email = sunnyadi@163.com
+[commit]
+	template = /Users/adi/.stCommitMsg
