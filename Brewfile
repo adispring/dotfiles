@@ -7,6 +7,7 @@ tap 'caskroom/fonts'
 brew 'emacs-plus'
 brew 'the_silver_searcher' # using for emacs helm-ag, C-c C-s
 
+# terminal commands
 brew 'percol'
 brew 'fzf'
 brew 'autojump'
@@ -23,6 +24,8 @@ brew 'unrar'
 brew 'wget'
 brew 'watchman'
 
+# programming language
+brew 'chezscheme'
 brew 'stack'
 
 cask 'font-source-code-pro'
