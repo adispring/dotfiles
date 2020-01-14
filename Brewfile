@@ -12,6 +12,7 @@ brew 'fzf'
 brew 'autojump'
 brew 'tree'
 brew 'tmux'
+brew zsh-syntax-highlighting
 
 brew 'ack'
 brew 'coreutils'
@@ -25,4 +26,5 @@ brew 'watchman'
 brew 'stack'
 
 cask 'font-source-code-pro'
+cask 'item2'
 # cask 'google-chrome'
