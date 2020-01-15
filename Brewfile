@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'd12frosted/emacs-plus'
-tap 'caskroom/fonts'
+# tap 'homebrew/fonts'
 
 brew 'emacs-plus'
 brew 'the_silver_searcher' # using for emacs helm-ag, C-c C-s
@@ -13,7 +13,7 @@ brew 'fzf'
 brew 'autojump'
 brew 'tree'
 brew 'tmux'
-brew zsh-syntax-highlighting
+brew 'zsh-syntax-highlighting'
 
 brew 'ack'
 brew 'coreutils'
