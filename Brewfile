@@ -1,10 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-tap 'd12frosted/emacs-plus'
-# tap 'homebrew/fonts'
-
-brew 'emacs-plus'
 brew 'the_silver_searcher' # using for emacs helm-ag, C-c C-s
 
 # terminal commands
@@ -23,11 +18,11 @@ brew 'spaceman-diff'
 brew 'unrar'
 brew 'wget'
 brew 'watchman'
+brew 'emacs'
 
 # programming language
 brew 'chezscheme'
 brew 'stack'
 
 cask 'font-source-code-pro'
-cask 'item2'
-# cask 'google-chrome'
+cask 'iterm2'
