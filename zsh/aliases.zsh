@@ -16,6 +16,6 @@ alias dirshow='defaults write com.apple.finder AppleShowAllFiles -boolean true ;
 alias thrift_parser="node ~/JavaScript/Github/thrift-parser/bin/thrift-parser.js"
 
 # remap terminal tools with customized arguments
-alias emacs="emacs -nw"
+# alias emacs="emacs -nw"
 alias ag='ag --path-to-ignore ~/.agignore'
 
