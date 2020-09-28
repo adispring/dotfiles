@@ -21,8 +21,8 @@ brew 'watchman'
 brew 'emacs'
 
 # programming language
-brew 'chezscheme'
-brew 'stack'
+# brew 'chezscheme'
+# brew 'stack'
 
-cask 'font-source-code-pro'
-cask 'iterm2'
+# cask 'font-source-code-pro'
+# cask 'iterm2'
