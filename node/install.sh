@@ -5,12 +5,14 @@ echo "› npm install -g"
 packages=(
     yarn
     npm
+    prettier
+    eslint
+    typescript-language-server
+    typescript
+    vls
     nodemon
-    create-react-app
     webpack
     tern
-    prettier
-    js-beautify
     livedown
 )
 
