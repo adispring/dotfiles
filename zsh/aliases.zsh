@@ -19,3 +19,6 @@ alias thrift_parser="node ~/JavaScript/Github/thrift-parser/bin/thrift-parser.js
 # alias emacs="emacs -nw"
 alias ag='ag --path-to-ignore ~/.agignore'
 
+alias git-init="git init && echo 'node_modules' >> .gitignore && git add ."
+
+
